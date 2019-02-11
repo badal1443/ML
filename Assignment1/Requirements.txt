@@ -1,0 +1,23 @@
+README
+
+bsingh48
+Assignment 1 CS7641
+
+The code can be downloaded from following github repository.
+https://github.com/badal1443/ML.git
+
+*** Need a Jupyter Notebook to run the code. ***
+
+Code is divided in two files Assignment1_Spambase.ipynb and Assignment1_Pendigit.ipynb
+
+import these 2 files in Jupyter notebook.
+
+
+
+Install following package to run the code:
+pip3 install -U scikit-learn
+pip3 install pandas
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
+pip3 install seaborn
