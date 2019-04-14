@@ -1,0 +1,104 @@
+2019-04-13 14:45:45,001 - __main__ - INFO - Using seed 2773357512
+2019-04-13 14:45:45,001 - __main__ - INFO - Creating MDPs
+2019-04-13 14:45:45,001 - __main__ - INFO - ----------
+2019-04-13 14:45:45,038 - __main__ - INFO - Frozen Lake (8x8): State space: 64, Action space: 4
+2019-04-13 14:45:45,043 - __main__ - INFO - Frozen Lake (20x20): State space: 400, Action space: 4
+2019-04-13 14:45:45,049 - __main__ - INFO - Cliff Walking (4x12): State space: 48, Action space: 4
+2019-04-13 14:45:45,049 - __main__ - INFO - ----------
+2019-04-13 14:45:45,049 - __main__ - INFO - Running experiments
+2019-04-13 14:45:45,049 - __main__ - INFO - {}
+2019-04-13 14:45:45,049 - __main__ - INFO - ----------
+2019-04-13 14:45:45,049 - __main__ - INFO - Plotting results
+2019-04-13 14:45:45,049 - experiments.plotting - INFO - Processing PI
+2019-04-13 14:45:45,050 - experiments.plotting - INFO - Grid files ['output//PI/cliff_walking_grid.csv', 'output//PI/large_frozen_lake_grid.csv', 'output//PI/frozen_lake_grid.csv']
+2019-04-13 14:45:45,050 - experiments.plotting - INFO - MDP: cliff_walking, Readable MDP: Cliff Walking
+2019-04-13 14:45:45,056 - experiments.plotting - INFO - MDP: large_frozen_lake, Readable MDP: Large Frozen Lake
+2019-04-13 14:45:45,059 - experiments.plotting - INFO - MDP: frozen_lake, Readable MDP: Frozen Lake
+2019-04-13 14:45:45,063 - experiments.plotting - INFO - Value file output//images/PI/cliff_walking_0.0_Value_Last.png, Policy File: output//images/PI/cliff_walking_0.0_Policy_Last.png
+2019-04-13 14:45:45,064 - experiments.plotting - INFO - Value file output//images/PI/large_frozen_lake_0.9_Value_Last.png, Policy File: output//images/PI/large_frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,064 - experiments.plotting - INFO - Value file output//images/PI/frozen_lake_0.8_Value_Last.png, Policy File: output//images/PI/frozen_lake_0.8_Policy_Last.png
+2019-04-13 14:45:45,064 - experiments.plotting - INFO - files ['output//PI/cliff_walking_0.0.csv']
+2019-04-13 14:45:45,064 - experiments.plotting - INFO - optimal_files ['output//PI/cliff_walking_0.0_optimal.csv']
+2019-04-13 14:45:45,064 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - files ['output//PI/large_frozen_lake_0.9.csv']
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - optimal_files ['output//PI/large_frozen_lake_0.9_optimal.csv']
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - files ['output//PI/frozen_lake_0.8.csv']
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - optimal_files ['output//PI/frozen_lake_0.8_optimal.csv']
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - Processing VI
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - Grid files ['output//VI/cliff_walking_grid.csv', 'output//VI/large_frozen_lake_grid.csv', 'output//VI/frozen_lake_grid.csv']
+2019-04-13 14:45:45,065 - experiments.plotting - INFO - MDP: cliff_walking, Readable MDP: Cliff Walking
+2019-04-13 14:45:45,070 - experiments.plotting - INFO - MDP: large_frozen_lake, Readable MDP: Large Frozen Lake
+2019-04-13 14:45:45,073 - experiments.plotting - INFO - MDP: frozen_lake, Readable MDP: Frozen Lake
+2019-04-13 14:45:45,077 - experiments.plotting - INFO - Value file output//images/VI/cliff_walking_0.1_Value_Last.png, Policy File: output//images/VI/cliff_walking_0.1_Policy_Last.png
+2019-04-13 14:45:45,077 - experiments.plotting - INFO - Value file output//images/VI/large_frozen_lake_0.9_Value_Last.png, Policy File: output//images/VI/large_frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - Value file output//images/VI/frozen_lake_0.9_Value_Last.png, Policy File: output//images/VI/frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - files ['output//VI/cliff_walking_0.1.csv']
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - optimal_files ['output//VI/cliff_walking_0.1_optimal.csv']
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - files ['output//VI/large_frozen_lake_0.9.csv']
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - optimal_files ['output//VI/large_frozen_lake_0.9_optimal.csv']
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - files ['output//VI/frozen_lake_0.9.csv']
+2019-04-13 14:45:45,078 - experiments.plotting - INFO - optimal_files ['output//VI/frozen_lake_0.9_optimal.csv']
+2019-04-13 14:45:45,079 - experiments.plotting - INFO - episode_files []
+2019-04-13 14:45:45,079 - experiments.plotting - INFO - Processing Q
+2019-04-13 14:45:45,082 - experiments.plotting - INFO - Grid files ['output//Q/cliff_walking_grid.csv', 'output//Q/large_frozen_lake_grid.csv', 'output//Q/frozen_lake_grid.csv']
+2019-04-13 14:45:45,082 - experiments.plotting - INFO - MDP: cliff_walking, Readable MDP: Cliff Walking
+2019-04-13 14:45:45,086 - experiments.plotting - INFO - MDP: large_frozen_lake, Readable MDP: Large Frozen Lake
+2019-04-13 14:45:45,092 - experiments.plotting - INFO - MDP: frozen_lake, Readable MDP: Frozen Lake
+2019-04-13 14:45:45,099 - experiments.plotting - INFO - Value file output//images/Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Value_Last.png, Policy File: output//images/Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Policy_Last.png
+2019-04-13 14:45:45,101 - experiments.plotting - INFO - Value file output//images/Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Value_Last.png, Policy File: output//images/Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Policy_Last.png
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - Value file output//images/Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Value_Last.png, Policy File: output//images/Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Policy_Last.png
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - files ['output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4.csv']
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - optimal_files ['output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_optimal.csv']
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - episode_files ['output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_episode.csv']
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - files ['output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9.csv']
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - optimal_files ['output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_optimal.csv']
+2019-04-13 14:45:45,104 - experiments.plotting - INFO - episode_files ['output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_episode.csv']
+2019-04-13 14:45:45,105 - experiments.plotting - INFO - files ['output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2.csv']
+2019-04-13 14:45:45,105 - experiments.plotting - INFO - optimal_files ['output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_optimal.csv']
+2019-04-13 14:45:45,105 - experiments.plotting - INFO - episode_files ['output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_episode.csv']
+2019-04-13 14:45:45,105 - experiments.plotting - INFO - Copying output//images/PI/cliff_walking_0.0_Policy_Last.png to output/report//PI/cliff_walking_0.0_Policy_Last.png
+2019-04-13 14:45:45,105 - experiments.plotting - INFO - Copying output//images/PI/cliff_walking_0.0_Value_Last.png to output/report//PI/cliff_walking_0.0_Value_Last.png
+2019-04-13 14:45:45,107 - experiments.plotting - INFO - Copying output//images/PI/large_frozen_lake_0.9_Policy_Last.png to output/report//PI/large_frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,107 - experiments.plotting - INFO - Copying output//images/PI/large_frozen_lake_0.9_Value_Last.png to output/report//PI/large_frozen_lake_0.9_Value_Last.png
+2019-04-13 14:45:45,109 - experiments.plotting - INFO - Copying output//images/PI/frozen_lake_0.8_Policy_Last.png to output/report//PI/frozen_lake_0.8_Policy_Last.png
+2019-04-13 14:45:45,109 - experiments.plotting - INFO - Copying output//images/PI/frozen_lake_0.8_Value_Last.png to output/report//PI/frozen_lake_0.8_Value_Last.png
+2019-04-13 14:45:45,111 - experiments.plotting - INFO - Copying output//images/VI/cliff_walking_0.1_Policy_Last.png to output/report//VI/cliff_walking_0.1_Policy_Last.png
+2019-04-13 14:45:45,111 - experiments.plotting - INFO - Copying output//images/VI/cliff_walking_0.1_Value_Last.png to output/report//VI/cliff_walking_0.1_Value_Last.png
+2019-04-13 14:45:45,112 - experiments.plotting - INFO - Copying output//images/VI/large_frozen_lake_0.9_Policy_Last.png to output/report//VI/large_frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,113 - experiments.plotting - INFO - Copying output//images/VI/large_frozen_lake_0.9_Value_Last.png to output/report//VI/large_frozen_lake_0.9_Value_Last.png
+2019-04-13 14:45:45,114 - experiments.plotting - INFO - Copying output//images/VI/frozen_lake_0.9_Policy_Last.png to output/report//VI/frozen_lake_0.9_Policy_Last.png
+2019-04-13 14:45:45,115 - experiments.plotting - INFO - Copying output//images/VI/frozen_lake_0.9_Value_Last.png to output/report//VI/frozen_lake_0.9_Value_Last.png
+2019-04-13 14:45:45,118 - experiments.plotting - INFO - Copying output//images/Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Policy_Last.png to output/report//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Policy_Last.png
+2019-04-13 14:45:45,118 - experiments.plotting - INFO - Copying output//images/Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Value_Last.png to output/report//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_Value_Last.png
+2019-04-13 14:45:45,120 - experiments.plotting - INFO - Copying output//images/Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Policy_Last.png to output/report//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Policy_Last.png
+2019-04-13 14:45:45,120 - experiments.plotting - INFO - Copying output//images/Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Value_Last.png to output/report//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_Value_Last.png
+2019-04-13 14:45:45,122 - experiments.plotting - INFO - Copying output//images/Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Policy_Last.png to output/report//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Policy_Last.png
+2019-04-13 14:45:45,123 - experiments.plotting - INFO - Copying output//images/Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Value_Last.png to output/report//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_Value_Last.png
+2019-04-13 14:45:45,125 - experiments.plotting - INFO - Copying file file from output//PI/cliff_walking_0.0.csv to output/report//PI/cliff_walking_0.0.csv
+2019-04-13 14:45:45,125 - experiments.plotting - INFO - Copying optimal_file file from output//PI/cliff_walking_0.0_optimal.csv to output/report//PI/cliff_walking_0.0_optimal.csv
+2019-04-13 14:45:45,126 - experiments.plotting - INFO - Copying file file from output//PI/large_frozen_lake_0.9.csv to output/report//PI/large_frozen_lake_0.9.csv
+2019-04-13 14:45:45,126 - experiments.plotting - INFO - Copying optimal_file file from output//PI/large_frozen_lake_0.9_optimal.csv to output/report//PI/large_frozen_lake_0.9_optimal.csv
+2019-04-13 14:45:45,127 - experiments.plotting - INFO - Copying file file from output//PI/frozen_lake_0.8.csv to output/report//PI/frozen_lake_0.8.csv
+2019-04-13 14:45:45,128 - experiments.plotting - INFO - Copying optimal_file file from output//PI/frozen_lake_0.8_optimal.csv to output/report//PI/frozen_lake_0.8_optimal.csv
+2019-04-13 14:45:45,128 - experiments.plotting - INFO - Copying file file from output//VI/cliff_walking_0.1.csv to output/report//VI/cliff_walking_0.1.csv
+2019-04-13 14:45:45,129 - experiments.plotting - INFO - Copying optimal_file file from output//VI/cliff_walking_0.1_optimal.csv to output/report//VI/cliff_walking_0.1_optimal.csv
+2019-04-13 14:45:45,129 - experiments.plotting - INFO - Copying file file from output//VI/large_frozen_lake_0.9.csv to output/report//VI/large_frozen_lake_0.9.csv
+2019-04-13 14:45:45,130 - experiments.plotting - INFO - Copying optimal_file file from output//VI/large_frozen_lake_0.9_optimal.csv to output/report//VI/large_frozen_lake_0.9_optimal.csv
+2019-04-13 14:45:45,130 - experiments.plotting - INFO - Copying file file from output//VI/frozen_lake_0.9.csv to output/report//VI/frozen_lake_0.9.csv
+2019-04-13 14:45:45,131 - experiments.plotting - INFO - Copying optimal_file file from output//VI/frozen_lake_0.9_optimal.csv to output/report//VI/frozen_lake_0.9_optimal.csv
+2019-04-13 14:45:45,131 - experiments.plotting - INFO - Copying file file from output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4.csv to output/report//Q/cliff_walking_0.5_random_0.1_0.0001_0.4.csv
+2019-04-13 14:45:45,132 - experiments.plotting - INFO - Copying optimal_file file from output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_optimal.csv to output/report//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_optimal.csv
+2019-04-13 14:45:45,132 - experiments.plotting - INFO - Copying episode_file file from output//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_episode.csv to output/report//Q/cliff_walking_0.5_random_0.1_0.0001_0.4_episode.csv
+2019-04-13 14:45:45,132 - experiments.plotting - INFO - Copying file file from output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9.csv to output/report//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9.csv
+2019-04-13 14:45:45,133 - experiments.plotting - INFO - Copying optimal_file file from output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_optimal.csv to output/report//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_optimal.csv
+2019-04-13 14:45:45,133 - experiments.plotting - INFO - Copying episode_file file from output//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_episode.csv to output/report//Q/large_frozen_lake_0.9_0_0.5_0.0001_0.9_episode.csv
+2019-04-13 14:45:45,133 - experiments.plotting - INFO - Copying file file from output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2.csv to output/report//Q/frozen_lake_0.9_random_0.3_0.0001_0.2.csv
+2019-04-13 14:45:45,134 - experiments.plotting - INFO - Copying optimal_file file from output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_optimal.csv to output/report//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_optimal.csv
+2019-04-13 14:45:45,134 - experiments.plotting - INFO - Copying episode_file file from output//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_episode.csv to output/report//Q/frozen_lake_0.9_random_0.3_0.0001_0.2_episode.csv
+2019-04-13 14:45:48,937 - experiments.plotting - INFO - Plotting episode stats with file base output/report//Q/cliff_walking_{}.png
+2019-04-13 14:45:50,565 - experiments.plotting - INFO - Plotting episode stats with file base output/report//Q/large_frozen_lake_{}.png
+2019-04-13 14:45:52,236 - experiments.plotting - INFO - Plotting episode stats with file base output/report//Q/frozen_lake_{}.png
